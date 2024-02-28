@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h3>Digite valores de 0 a 100</h3>
+    <label>
+        Digite o 1 Valor: <input type="text" id="primeiroValor">
+    </label>
+    <label>
+        Digite o 2 valor: <input type="text" id="segundoValor">
+    </label>
+    <input type="radio" name="option" value="+"> Soma
+    <input type="radio" name="option" value="-"> Subtração
+    <input type="radio" name="option" value="*"> Multiplicação
+    <input type="radio" name="option" value="/"> Divisão
+    <button onclick="calcular()">Calcular</button>
+
+    <h4>Resultado: <span id="resultado"></span></h4>
+</body>
+</html>
